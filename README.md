@@ -1,5 +1,5 @@
 # cross-platform-app
-This repository is a **template repo** for creating a [Tauri] app with [Capacitor] for mobile support. It contains an example app using [graphscript].
+This repository is a **template repo** for creating a [Tauri] app with [Capacitor] for mobile support. 
 
 ## Contributing
 ### Repo Structure
@@ -64,4 +64,3 @@ The first run will likely need to install all of the tools in the android projec
 
 [Capacitor]: https://capacitorjs.com/
 [Tauri]: https://tauri.app/
-[Tauri]: https://github.com/brainsatplay/graphscript
