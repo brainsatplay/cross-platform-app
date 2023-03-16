@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import execa from 'execa';
 
 /**
  * This function is used to rename the binary with the platform specific postfix.
