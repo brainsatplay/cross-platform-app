@@ -5,7 +5,7 @@ const config = {
         entryPoints: [  "frontend/index.ts" ],
         outfile: "dist/index", 
         bundleBrowser: true, 
-        bundleHTML: true, 
+        bundleHTML: false, 
         minify: !process.env.TAURI_DEBUG ? true : false,
         sourcemap: !!process.env.TAURI_DEBUG,    
      },

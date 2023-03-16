@@ -1,14 +1,25 @@
 # cross-platform-app
-This repository is a **template repo** for creating a [Tauri] app with [Capacitor] for mobile support. 
+This repository is a **template repo** for using a single repo structure for creating a traditional hosted web app, desktop app with [Tauri], and Android/IOS mobile app with [Capacitor]. 
+
+It also contains some test code for linking a separate node server to the tauri application, for running nodejs in parallel with the desktop app.
 
 ## Contributing
 ### Repo Structure
 - `frontend` - The frontend code for the app
-- `backend` - The backend code for the app
 - `src-tauri` - The [Tauri] source files
 - `capacitor.config.js` - The [Capacitor] configuration file
+- `backend` - The backend code for the app, an example for serving a node server in a tauri webview application.
 
 ### Building
+
+#### Web (server hosted)
+
+Development server: `npm run app:dev`
+
+Or: bundle & serve with `tinybuild`, which by default runs a hot-reloading development server for quick testing. `tinybuild build` will just run the bundler step, or set server:false in `tinybuild.config.js`
+
+Then in production, simply serve the index.html in this repository. and it will link the bundled file. Tinybuild includes instructions to quickly serve an https server if you don't have your own solution. 
+
 #### Desktop (Windows / Mac / Linux)
 Ensure that the [Tauri] CLI is installed by running `npm i`.
 
