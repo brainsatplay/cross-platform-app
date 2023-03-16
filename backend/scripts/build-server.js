@@ -1,4 +1,4 @@
-import execa from 'execa';
+
 import {execSync} from 'child_process'
 
 /**

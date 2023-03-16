@@ -1,5 +1,5 @@
 # cross-platform-app
-This repository is a **template repo** for using a single repo structure for creating a traditional hosted web app, desktop app with [Tauri], and Android/IOS mobile app with [Capacitor]. 
+This repository is a **template repo** for a single web development pipeline for creating a traditional hosted web app, desktop app with [Tauri], and Android/IOS mobile app with [Capacitor]. This comes enabled with complex web bundling capabilities thanks to esbuild (via [tinybuild](https://github.com/brainsatplay/tinybuild)) for rapid development. 
 
 It also contains some test code for linking a separate node server to the tauri application, for running nodejs in parallel with the desktop app.
 
