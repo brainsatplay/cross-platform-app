@@ -14,7 +14,7 @@ It also contains some test code for linking a separate node server to the tauri 
 
 #### Web (server hosted)
 
-Development server: `npm run app:dev`
+Development server: `npm start`
 
 Or: bundle & serve with `tinybuild`, which by default runs a hot-reloading development server for quick testing. `tinybuild build` will just run the bundler step, or set server:false in `tinybuild.config.js`
 
